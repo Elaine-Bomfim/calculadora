@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: darkslategrey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+#resultado{
+    background-color: white;
+    width: 223px; /* largura*/
+    height: 30px; /* altura*/
+    margin: 5px;
+    font-size: 25px; /* tamanho da letra */
+    color: black;
+    text-align: right; /* para os números aparecer na direita */
+    padding: 5px;
+}
+.calculadora{
+    position: absolute; /* ocupa apenas o espaço dela mesmo*/
+    background-color: rgba(0, 0, 0, 0.8);
+
+    /*para alinhar ao centro a calculadora*/
+    top: 50%; /* desceu a imagem*/
+    left: 50%; /* foi para direita*/
+    transform: translate(-50%, -50%); /*para ficar no meio certinho*/
+    border-radius: 15px; /* bordas arredondadas*/
+    padding: 15px; /* afasta os elementos da borda*/
+}
+.botao{
+    width: 50px; /* largura*/
+    height: 50px; /* altura*/
+    font-size: 25px; /* tamanho dos números*/
+    cursor: pointer; /* para aparecer a malzinha em cima dos numeros*/
+    background-color: rgb(31, 31, 31);
+    border: none; /* para tirar as decorações das bordas*/
+    color: white; /* cor dos números*/
+    margin: 3px; /* afastou os botões um do outro*/
+}
+.botao:hover{
+    background-color: black; /* quando passar o mouse, vai ficar preto*/
+}
